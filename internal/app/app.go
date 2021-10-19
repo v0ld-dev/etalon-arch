@@ -1,6 +1,9 @@
 package app
 
-import "github.com/v0ld-dev/etalon-arch/internal/service"
+import (
+	"github.com/v0ld-dev/etalon-arch/internal/service"
+	"github.com/v0ld-dev/etalon-arch/pkg/cache"
+)
 
 func Run() {
 	memCache := cache.NewMemoryCache()
